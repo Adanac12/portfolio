@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">    
+</head>
+
+<body>
+    <header>
+
+        <h2>Damien Bourdais</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#projet">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="CV/index2.html" target="_blank">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="profil">
+        <img id="profile" src="IMAGES/Sans titre-1.png" alt="">
+    </section>
+
+    <section id="carrousel">
+        <video src="/VIDEOS/animé.mp4" width="100%" muted autoplay loop></video>
+    </section>
+
+    <h2 class="projet" id="projet">Projets</h2>
+
+    <section id="block">
+        <section>
+            <a href="/IMAGES/Affiche typographique.png"><img  class="affiche" src="/IMAGES/affiche.png" alt="Affiche typographique axolotl"></a>
+        </section>
+        <section>
+            <a href="/IMAGES/lettre_creation_grande.png"><img  class="affiche" src="/IMAGES/lettre_creation.png" alt="lettre creation"></a>
+        </section>
+        <section>
+            <a href="/IMAGES/Affiche street graff .png"><img  class="affiche" src="/IMAGES/Affiche street graff_.png" alt="Affiche street graff"></a>
+        </section>
+        <!-- <section class="cube">
+            <h2>Projet 4</h2>
+        </section>
+        <section class="cube">
+            <h2>Projet 5</h2>
+        </section>
+        <section class="cube">
+            <h2>Projet 6</h2>
+        </section> -->
+    </section>
+
+    <h2 class="projet" id="contact">Contact</h2>
+    <section id="contact">
+        <section class="formulaire1">
+
+            <h4>Contact</h4>
+            <form method="post" action="traitement.php">
+                <p>
+                    <input class="barre" type="text" name="Prenom" id="Prenom" placeholder="Votre prénom..">
+                </p>
+            </form>
+        </section>
+        <section class="formulaire1">
+            <h4>Nom</h4>
+            <form method="post" action="traitement.php">
+                <p>
+                    <input class="barre" type="text" name="Nom" id="Nom" placeholder="Votre nom..">
+                </p>
+            </form>
+        </section>
+        <section id="formulaire3">
+            <h4>Remarques</h4>
+            <form method="post" action="traitement.php">
+                <p>
+                    <textarea class="grbarre" name="Remarques" id="Remarques" cols="30" rows="10"
+                        placeholder="Remarque.."></textarea>
+                </p>
+                <section id="buton">
+                    <input id="bouton" type="submit" value="Envoyer">
+                </section>
+            </form>
+        </section>
+    </section>
+    <footer>
+        <h2 id="footer">Footer</h2>
+        <section id="reseaux">
+            <a href="#"><img id="ecart1" src="/IMAGES/584ac2d03ac3a570f94a666d.png" alt="réseau social Facebook"
+                    width="70x"></a>
+            <a href="#"><img id="ecart2" src="/IMAGES/Twitter.png" alt="réseau social Twitter" width="76px"></a>
+            <a href="#"><img id="ecart3" src="/IMAGES/Insta.png" alt="réseau social Instagramm" width="82px"></a>
+        </section>
+    </footer>
+</body>
+</html>
